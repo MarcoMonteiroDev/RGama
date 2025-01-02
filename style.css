@@ -46,7 +46,7 @@ h4{
 .lateral{
     background-image: url(imagens/rgama\ -\ Copia.jpg);
     background-attachment: fixed;
-    background-size: 27.7% 100%;
+    background-size: 27% 100%;
 }
 
 
@@ -55,7 +55,7 @@ h4{
 }
 
 .produto{
-    width: 180px;
+    width: 200px;
     padding: 5px 10px;
     margin: auto;
     margin-bottom: 20px;
