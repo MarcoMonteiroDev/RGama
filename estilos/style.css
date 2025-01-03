@@ -6,9 +6,6 @@
     box-sizing: border-box;
 }
 
-body{
-    overflow-x: hidden;
-}
 
 header{
     width: 100vw;
@@ -47,11 +44,6 @@ h4{
     background-image: url(../imagens/rgama\ -\ Copia.jpg);
     background-attachment: fixed;
     background-size: 27% 100%;
-}
-
-
-#produtos{
-    padding: 10px;
 }
 
 .produto{
