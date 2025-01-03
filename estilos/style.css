@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 h2{
     text-transform: capitalize;
     margin-top: 5px;
@@ -38,7 +42,7 @@ h4{
 .lateral{
     background-image: url(../imagens/rgama\ -\ Copia.jpg);
     background-attachment: fixed;
-    background-size: 27% 100%;
+    background-size: 27.4% 100%;
 }
 
 .produto{
@@ -54,4 +58,8 @@ h4{
 .tituloprod{
     color: #000000;
     text-decoration: none;
+}
+
+.conteudo{
+    margin: -24px;
 }
