@@ -6,11 +6,6 @@
     box-sizing: border-box;
 }
 
-
-header{
-    width: 100vw;
-}
-
 h2{
     text-transform: capitalize;
     margin-top: 5px;
@@ -59,8 +54,4 @@ h4{
 .tituloprod{
     color: #000000;
     text-decoration: none;
-}
-
-div#carouselExampleCaptions{
-    width: 100vw;
 }
