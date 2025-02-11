@@ -42,11 +42,11 @@ h4{
 }
 
 .produtos{
-    width: 99.6vw;
+    width: 100%;
 }
 
 .produto{
-    width: 200px;
+    width: 150px;
     padding: 5px 10px;
     margin: auto;
     margin-bottom: 20px;
