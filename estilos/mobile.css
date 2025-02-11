@@ -16,11 +16,9 @@ h4{
 }
 .produtos{
     margin: auto;
-    
 }
 
 .produto{
-    width: 90px;
     padding: 5px 10px;
     margin: 7px;
     border-bottom: 1px solid black;
