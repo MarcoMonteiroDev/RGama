@@ -59,3 +59,10 @@ h4{
     color: #000000;
     text-decoration: none;
 }
+
+.prodfoco{
+    height: 400px;
+}
+.imgprodfoco{
+    align-items: center;
+}
