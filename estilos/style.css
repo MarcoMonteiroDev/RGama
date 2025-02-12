@@ -35,14 +35,14 @@ h4{
     background-color: #ffffff;
 }
 
+.conteudo{
+    width: 101%;
+}
+
 .lateral{
     background-image: url(../imagens/rgama\ -\ Copia.jpg);
     background-attachment: fixed;
     background-size: 27.4% 100%;
-}
-
-.produtos{
-    width: 100%;
 }
 
 .produto{
@@ -63,6 +63,21 @@ h4{
 .prodfoco{
     height: 400px;
 }
+
 .imgprodfoco{
     align-items: center;
+}
+
+.prodfoco h2{
+    font-size: 2em;
+}
+.prodfoco h3{
+    font-size: 1.6em;
+    font-weight: bolder;
+}
+
+.mudarqtd{
+    width: 20px;
+    border: 1px solid black;
+    margin-bottom: 10px;
 }

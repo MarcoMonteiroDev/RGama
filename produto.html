@@ -60,21 +60,37 @@
 
   </header> <!-- fim topo -->
 
-  <div class="row mt-2"> <!-- conteudo -->
+  <div class="row mt-2 conteudo"> <!-- conteudo -->
 
     <div class="col-md lateral">
     </div>
 
-    <div class="col-md-8">
+    <div class="col-md-8 row">
 
-      <div class="prodfoco row align-center">
+      <div class="prodfoco row">
         
         <div class="col-6 row m-2">
             <img src="imagens/cimento.jpg" alt="">
         </div>
 
-        <div class="col">
-            <h1>Cimento tocantins</h1>
+        <div class="col mt-5">
+            <h2>Cimento tocantins</h2>
+            <h3>R$ 50,00 </h3>
+            <h4>ou 2x 10,99 no cartao</h4>
+            
+            <label for="qtd">Quantidade</label>
+
+            <div class="Quantidade">
+              <button class="mudarqtd">-</button>
+              <input type="tel" value="1" id="qtd">
+              <button class="mudarqtd">+</button>
+            </div>
+
+            <div class="total">
+              <label for="total">Total Compra</label>
+              <button id="total">50,00 R$</button>
+            </div>
+
         </div>
       </div>
 
