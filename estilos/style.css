@@ -6,23 +6,23 @@
     box-sizing: border-box;
 }
 
-h2{
+div > h2{
     text-transform: capitalize;
     margin-top: 5px;
     font-size: 1.2em;
 }
-h3{
+div > h3{
     font-size: 1.1em;
     color: red;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-h4{
+div > h4{
     font-size: 0.8em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .navmenu{
-    color: #ffffff;
+    color: #fff !important;
 }
 
 .c1{
@@ -36,7 +36,7 @@ h4{
 }
 
 .conteudo{
-    width: 101%;
+    width: 100%;
 }
 
 .lateral{
@@ -45,9 +45,10 @@ h4{
     background-size: 27.4% 100%;
 }
 
-.produto{
-    width: 150px;
-    padding: 5px 10px;
+div.produto{
+    height: 300px;
+    width: 170px;
+    padding: 10px 10px;
     margin: auto;
     margin-bottom: 20px;
     border-bottom: 1px solid black;
@@ -55,8 +56,9 @@ h4{
     border-radius: 5px;
 }
 
-.produto a > div > h2 {
-    height: 80px;
+.produto > a > div > h2 {
+    height: 70px;
+    align-content: center;
 }
 
 .tituloprod{
@@ -86,7 +88,15 @@ h4{
     margin-bottom: 10px;
 }
 
+#produto > div {
+    height: 60vh;
+}
+
+#produto > header {
+    height: 37.5vh;
+}
+
 .lista{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(190px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px,1.3fr));
 }
