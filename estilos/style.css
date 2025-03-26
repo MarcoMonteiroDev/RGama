@@ -22,7 +22,7 @@ div > h4{
 }
 
 .navmenu{
-    color: #fff !important;
+    color: #fff;
 }
 
 .c1{
@@ -100,3 +100,4 @@ div.produto{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px,1.3fr));
 }
+
