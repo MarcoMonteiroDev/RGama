@@ -101,3 +101,6 @@ div.produto{
     grid-template-columns: repeat(auto-fit, minmax(180px,1.3fr));
 }
 
+.borda{
+    border: 1px solid red;
+}
